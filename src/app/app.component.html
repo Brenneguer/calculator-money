@@ -3,10 +3,15 @@
     <!-- #docregion toolbar-simple -->
     <mat-toolbar color="primary">
       <span>Calculadora de Dinheiro</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with home icon">
+        <mat-icon><a href="/">home</a></mat-icon>
+      </button>
     </mat-toolbar>
     <!-- #enddocregion toolbar-simple -->
   </p>
 </div>
+
 
 <app-moedas (moedas)="atualizarMoedas($event)" *ngIf="moedas">
 
