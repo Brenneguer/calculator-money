@@ -1,0 +1,50 @@
+<div class="body">
+  <mat-card>
+    <mat-card-title>
+      Insira a quantidade de Moedas.
+    </mat-card-title>
+
+    <mat-card-actions>
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Um centavo</mat-label>
+          <input [(ngModel)]="umCentavos" matInput placeholder="Quantidade moedas Um Centavo" name="umcentavo">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Cinco Centavos</mat-label>
+          <input [(ngModel)]="cincoCentavos" matInput placeholder="Quantidade moedas Cinco Centavos" name="cincoCents">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Dez Centavos</mat-label>
+          <input [(ngModel)]="dezCentavos" matInput placeholder="Quantidade moedas Dez Centavos" name="dezCentavos">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Vinte Cinco Centavos</mat-label>
+          <input [(ngModel)]="vinteCincoCentavos" matInput placeholder="Quantidade moedas Vinte Cinco Centavos"
+            name="vinteCincoCentavos">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Cinquenta Centavos</mat-label>
+          <input [(ngModel)]="cinquentaCentavos" matInput placeholder="Quantidade moedas Cinquenta Centavos"
+            name="cinquentaCentavos">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Um Real</mat-label>
+          <input [(ngModel)]="umReal" matInput placeholder="Quantidade moedas Um Real" name="umReal">
+        </mat-form-field>
+
+      </form>
+
+    </mat-card-actions>
+    <div class="example-button-row">
+      <button mat-fab color="primary" (click)="totalCalc()">Next</button>
+    </div>
+  </mat-card>
+
+
+</div>

@@ -1,0 +1,51 @@
+<div class="body">
+  <mat-card>
+    <mat-card-title>
+      Insira a quantidade de Cédulas.
+    </mat-card-title>
+    <mat-card-actions>
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Dois Reais</mat-label>
+          <input [(ngModel)]="doisReais" matInput placeholder="Quantidade cédulas Dois Reais" name="doisReais">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Cinco Reais</mat-label>
+          <input [(ngModel)]="cincoReais" matInput placeholder="Quantidade cédulas Cinco Reais" name="cincoReais">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Dez Reais</mat-label>
+          <input [(ngModel)]="dezReais" matInput placeholder="Quantidade cédulas Dez Reais" name="dezReais">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Vinte Reais </mat-label>
+          <input [(ngModel)]="vinteReais" matInput placeholder="Quantidade cédulas de  Vinte Reais" name="vinteReais">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Cinquenta Reais</mat-label>
+          <input [(ngModel)]="cinquentaReais" matInput placeholder="Quantidade cédulas de Cinquenta Reais"
+            name="cinquentaCentavos">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Cem Reais</mat-label>
+          <input [(ngModel)]="cemReais" matInput placeholder="Quantidade cédulas Cem Reais" name="cemReais">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Duzentos Reais</mat-label>
+          <input [(ngModel)]="duzentosReais" matInput placeholder="Quantidade cédulas Duzentos Reais"
+            name="duzentosReais">
+        </mat-form-field>
+
+      </form>
+    </mat-card-actions>
+      <div class="example-button-row">
+        <button mat-fab color="primary" (click)="totalCedulasCalc()">Finish</button>
+      </div>
+  </mat-card>
+</div>

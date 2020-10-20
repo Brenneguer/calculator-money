@@ -1,0 +1,26 @@
+*  {
+  margin:0;
+  padding:0;
+}
+.footer {
+  padding-top: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}
+@media(max-width: 350px) {
+  .footer {
+    position: sticky;
+  }
+}
+@media(max-height: 570px) {
+  .footer {
+    position: sticky;
+  }
+}
+
+
+
+.text {
+  font-size: 1.6vh;
+}
